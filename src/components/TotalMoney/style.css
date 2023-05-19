@@ -1,0 +1,14 @@
+.container_total {
+  margin-top: 2rem;
+  border: 1px solid #e9ecef;
+  height: 96px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.container_total_text_descricao {
+  font-size: small;
+}

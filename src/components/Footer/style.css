@@ -1,0 +1,25 @@
+.container_footer {
+  width: 100vw;
+  background-color: #fd377e;
+  color: white;
+  font-family: "Nunito";
+}
+
+.container_footer_p {
+  opacity: 0.7;
+}
+
+.container_footer_name {
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (min-width: 951px) {
+  .container_footer {
+    position: fixed;
+    bottom: 0px;
+  }
+}

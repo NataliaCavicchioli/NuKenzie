@@ -1,0 +1,46 @@
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-80px, 0px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.container_cards {
+  display: flex;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+  -webkit-animation: fadeInLeft 0.5s;
+  animation: fadeInLeft 0.5s;
+}
+
+.green {
+  border-left: 4px solid #03b898;
+}
+
+.gray {
+  border-left: 4px solid #e9ecef;
+}
+
+.container_card_description {
+  text-align: start;
+  margin-left: 1rem;
+}
+
+.container_card_value {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  margin-right: 1rem;
+}
+
+.container_card_value > button {
+  border: none;
+  height: 1.5rem;
+  cursor: pointer;
+}

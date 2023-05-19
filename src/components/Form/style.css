@@ -1,0 +1,52 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 22rem;
+  background-color: white;
+  align-items: center;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 2rem;
+  box-sizing: border-box;
+  max-width: 21rem;
+}
+
+.alinhar_container_label {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.alinhar_label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.label {
+  font-size: 0.75rem;
+
+  margin-bottom: 1rem;
+}
+
+.input {
+  height: 2.25rem;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding: 9px;
+  width: 100%;
+  border: 1px solid rgb(0 0 0 / 21%);
+  box-sizing: border-box;
+}
+
+.input_exemplo {
+  font-size: 0.75rem;
+  opacity: 0.5;
+}
+
+.container_btn_form {
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+.container_filtro {
+  display: flex;
+  gap: 8rem;
+  font-family: "Nunito";
+}
+
+.container_btn_filtro {
+  display: flex;
+  gap: 1rem;
+}
+
+.container_btn_todos_filtro {
+  min-width: 4rem;
+}
+
+.container_btn_transacao_filtro {
+  min-width: 5.5rem;
+}
